@@ -13,10 +13,9 @@ The students can do the quiz and see their results.
 
 ### Screenshot
 Home Page
-![images/bitterrsweetj.github.io.png]
+![](./images/bitterrsweetj.github.io.png)
 Quiz page
-![images/screetshot2.png]
-
+![](./images/screetshot2.png)
 
 ### Links
 
