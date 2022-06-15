@@ -12,10 +12,12 @@ The students can do the quiz and see their results.
 3. Save progress on every test, even if the page being reloaded
 
 ### Screenshot
-  ** Home Page**
+  **Home Page**
+  
 ![](./images/bitterrsweetj.github.io.png)
   
   **Quiz page**
+  
 ![](./images/screenshot2.png)
 
 ### Links
