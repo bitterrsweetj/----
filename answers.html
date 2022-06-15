@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Відповіді на тест</title>
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/quiz-page-styles.css">
+  <link rel="icon" href="./images/graduation-hat 1.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="wrapper">
+  <div class="header">
+    <div class="navbar">
+      <img class="logo"  onclick="window.location.href='./index.html'" class="logo"  src="./images/graduation-hat 1.png" alt="">
+      <ul>
+        <label class="logo"></label>
+        <li><a class ="link" href="index.html#id1">Тести</a></li>
+        <li><a class ="link" href="index.html#id2">Додаткові ресурси</a></li>
+        <li><a class ="link" href="https://web.kpi.kharkov.ua/iks/en/" target="_blank">Сайт кафедри</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="content" id="quiz">
+    <h1><center id="answers">Відповіді на питання тесту</center></h1>
+      <h2 id="question">1. Які числа будуть виведені?</h2>
+      <pre id="description">
+for (int i = 10; i < 20; i += 2) {
+    if (i > 15)
+        break;
+    if (i % 4 == 0)
+        continue;
+System.out.println (i);
+} </pre>
+
+    <div class="answer">
+      <p ><strong>Правильна відповідь:</strong> 10, 14</p>
+    </div>
+
+    <h2 id="question">2. Скількі параметрів може приймати функція?</h2>
+    <div class="answer">
+      <p><strong>Правильна відповідь: </strong> необмежену кількість </p>
+    </div>
+
+    <h2 id="question">3. Який метод дозволяє запустити програму на Java?</h2>
+    <div class="answer">
+      <p ><strong>Правильна відповідь:</strong> з методу main в будь-якому з классів</p>
+    </div>
+
+    <h2 id="question">4. У чому тут помилка?'</h2>
+      <pre id="description">int a, b;
+System.out.print("Введить перше число: ");
+Scanner num = new Scanner(System.in);
+a = num.nextFloat (); </pre>
+    <div class="answer">
+      <p ><strong>Правильна відповідь:</strong> Замість nextFloat потрібно використовувати nextInt</p>
+    </div>
+
+    <h2 id="question">5. Що спільного у всіх елементів масиву?</h2>
+    <pre id="description"></pre>
+    <div class="answer">
+      <p><strong>Правильна відповідь:</strong> Їх тип даних</p>
+    </div>
+
+    <h2 id="question">6. Де правильно створена проста змінна?</h2>
+    <pre id="description"></pre>
+    <div class="answer">
+      <p><strong>Правильна відповідь:</strong> float x = 23.3f;</p>
+    </div>
+
+    <h2 id="question">7. Що виведе цей код?</h2>
+    <pre id="description">
+  int a = 9;
+  switch (a) {
+      case 0: System.out.print ("0");
+      case 5: System.out.print ("5"); break;
+      case 9: System.out.print ("9");
+      case 10: System.out.print ("10"); break;
+      default: System.out.print ("!");
+  }; </pre>
+    <div class="answer">
+      <p><strong>Правильна відповідь:</strong> 910</p>
+    </div>
+    <h2 id="question">8. Кожен файл повинен називатися...</h2>
+    <pre id="description"></pre>
+    <div class="answer">
+      <p><strong>Правильна відповідь:</strong> по імені класу у ньому</p>
+    </div>
+
+    <h2 id="question">9. Де правильно присвоєно нове значення до багатовимірного масиву?</h2>
+    <pre id="description"></pre>
+    <div class="answer">
+      <p ><strong>Правильна відповідь:</strong> a[0][0] = 1</p>
+    </div>
+    <h2 id="question">10. Які математичні операції є у Java?</h2>
+    <pre id="description"></pre>
+    <div class="answer">
+      <p ><strong>Правильна відповідь:</strong> Усі наведені ( +, -, *, /, %, --, ++) </p>
+    </div>
+
+    <h2 id="question">11. Який клас відповідає за отримання інформації від користувача?</h2>
+    <pre id="description"></pre>
+    <div class="answer">
+      <p><strong>Правильна відповідь:</strong> Scanner</p>
+    </div>
+    <h2 id="question">12. Де правильно буде здійснено вивід?</h2>
+    <pre id="description"></pre>
+    <div class="answer">
+      <p><strong>Правильна відповідь:</strong> System.out.print("Hello World!");</p>
+    </div>
+    <h2 id="question">13. Що виведе цей код?</h2>
+    <pre id="description">
+    int a = 9;
+    boolean isDone = false;
+    if (a % 3 != 0 || !isDone)   
+    System.out.print("Готово");</pre>
+    <div class="answer">
+      <p><strong>Правильна відповідь:</strong> Виведе текст "Готово"</p>
+    </div>
+    <h2 id="question">14. Для чого можна використовувати Java?</h2>
+    <pre id="description"></pre>
+    <div class="answer">
+      <p><strong>Правильна відповідь:</strong> Для усього наведеного вище (для створення программ під ПК, для створення сайтів, для створення ігор)</p>
+    </div>
+
+    <h2 id="question">15. Де правильно створено масив?</h2>
+    <pre id="description"></pre>
+    <div class="answer">
+      <p><strong>Правильна відповідь:</strong> int[] a = new int {1, 2, 3, 4, 5};</p>
+    </div>
+  </div>
+</body>
+</html>
+
+
+

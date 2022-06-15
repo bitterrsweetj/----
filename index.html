@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тести з ООП</title>
+  <link rel="icon" href="./images/graduation-hat 1.png" type="image/x-icon">
+  <link rel="stylesheet" href="./styles/global.css">
+</head>
+
+<body>
+  <!-- первый экран -->
+  <div class="hero"> 
+    <div class="header">
+      <div class="navbar"> 
+        <img onclick="window.location.href='./index.html'" class="logo" src="./images/graduation-hat 1.png" alt="">
+        <ul>
+          <label class="logo"></label>
+          <li><a class ="link" href="#id1">Тести</a></li>
+          <li><a class ="link" href="#id2">Додаткові ресурси</a></li>
+          <li><a class ="link" href="https://web.kpi.kharkov.ua/iks/en/" target="_blank">Сайт кафедри</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="banner"> 
+      <div class="left--column">
+        <h1>Протестуй свої знання з курсу ООП</h1>
+        <p>Обери модуль з курсу та перевір наскільки добре ти вивчив матеріал</p>
+        <form action="#id1" method="get">
+          <button>Розпочати <span>&rarr;</span></button>
+      </div>
+
+      <div class="right--column">
+        <img src="./images/girl-working-at-home.png" alt="">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- сетка с тестами -->
+  <div class="grid--tests" id="id1"> 
+    <div class="grid-item">
+      <div class="card">
+        <img class="card-img" src="./images/slide1.png" alt="">
+        <div class="card-content">
+          <h2 class="card-header">Модуль 1</h2>
+            <p class="card-text">Базові оператори, функції, методи та типи даних</p>
+            <button id="test1" type="button" class="card-btn">Пройти</button>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid-item">
+      <div class="card">
+        <img class="card-img" src="./images/slide2.png" alt="">
+        <div class="card-content">
+          <h2 class="card-header">Модуль 2</h2>
+          <p class="card-text">Базові оператори, функції, методи та типи даних</p>
+          <button id="test2" type="button" class="card-btn">Пройти</button>
+        </div>
+      </div>
+    </div>
+            
+    <div class="grid-item">
+      <div class="card">
+        <img class="card-img" src="./images/slide3.png" alt="">
+        <div class="card-content">
+          <h2 class="card-header">Модуль 3</h2>
+          <p class="card-text">Базові оператори, функції, методи та типи даних</p>
+          <button id="test3" type="button" class="card-btn">Пройти</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid-item"> 
+      <div class="card">
+        <img class="card-img" src="./images/slide4.png" alt="">
+        <div class="card-content">
+          <h2 class="card-header">Модуль 4</h2>
+          <p class="card-text">Базові оператори, функції, методи та типи даних</p>
+          <button id="test4" type="button" class="card-btn">Пройти</button>
+        </div>
+      </div>
+    </div>
+            
+    <div class="grid-item">
+      <div class="card">
+        <img class="card-img" src="./images/slide5.png" alt="">
+        <div class="card-content">
+          <h2 class="card-header">Модуль 5</h2>
+          <p class="card-text">Базові оператори, функції, методи та типи даних</p>
+          <button id="test5" type="button" class="card-btn">Пройти</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <center>Ресурси</center>
+  <!--  сетка с ресурсами -->
+  <div class="grid--resources" id="id2"> 
+    <div class="grid-item">
+      <a target="_blank" href="https://www.codewars.com/">
+      <div class="card">
+        <img class="card-img" src="./images/codewars.png" alt="">
+        <div class="card-content">
+          <h2 class="card-header">CodeWars</h2>
+          <p class="card-text">Освітня платформа з різними видами завдань з програмування.</p>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    <div class="grid-item">
+      <a target="_blank" href="https://www.leetcode.com/">
+      <div class="card">
+        <img class="card-img" src="./images/leetcode.png" alt="">
+        <div class="card-content">
+          <h2 class="card-header">LeetCode</h2>
+          <p class="card-text">Сайт для тренування навичок у вирішенні задач з програмування</p>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    <div class="grid-item">
+      <a target="_blank" href="https://habr.com/ru/post/87119/">
+      <div class="card">
+      <img class="card-img" src="./images/habr.png" alt="">
+      <div class="card-content">
+        <h2 class="card-header">ООП з прикладами</h2>
+        <p class="card-text">Стаття про основні поняття ООП (класс, об'єкт, інтерфейс тощо)</p>
+      </div>
+      </div>
+      </a>
+    </div>
+
+    <div class="grid-item">
+      <a target="_blank" href="https://www.codecademy.com/">
+      <div class="card">
+        <img class="card-img" src="./images/codeacademy.png" alt="">
+        <div class="card-content">
+          <h2 class="card-header">CodeAcademy</h2>
+          <p class="card-text">Освітня платформа для вивчення мов програмування</p>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    <div class="grid-item">
+      <a target="_blank" href="https://www.freecodecamp.org/news/tag/java/">
+      <div class="card">
+        <img class="card-img" src="./images/freecodecamp.png" alt="">
+        <div class="card-content">
+          <h2 class="card-header">FreeCodeCamp</h2>
+          <p class="card-text">Веб-сайт з безкоштовними онлайн-курсами з програмування</p>
+        </div>
+      </div>
+      </a>
+    </div>
+
+</div>
+  
+</body>
+<script src="script.js"></script>
+</html> 

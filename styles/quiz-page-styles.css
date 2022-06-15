@@ -1,0 +1,158 @@
+body {
+  min-height: 100vh;
+  width: 60%;
+  margin:auto;
+}
+
+.wrapper {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+  margin-top:14vh;
+}
+
+center {
+  font-size: 2rem;
+  margin-bottom:1rem;
+}
+
+#counter {
+  background-color: #3eadfd;
+  width: 160px;
+  padding: 4px 8px;
+  border-radius: 47px;
+  text-align: center;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+#description{
+  color: #656565;
+  margin: 1.1rem;
+  line-height: 130%;
+  font-size: 1rem;
+}
+
+.quiz-container ul{
+  display: block;
+  padding: 0 20px;
+  width: 90%;
+}
+
+.quiz-container ul li {
+  padding: 12px;
+}
+
+.quiz-container ul li:hover {
+  background: #e7e7e7;
+  cursor: pointer;
+}
+
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #F87DA9;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    transition: all 0.15s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    transform: scale(1);
+    transform: scale(1);
+}
+
+button {
+  background-color: #9c8af5;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 27px 12px 28px;
+  border-radius: 47px;
+  position: absolute;
+  margin-top: 2rem;
+  transition: .3s ease-in-out;
+}
+
+button#submit {
+  right: 27%;
+  margin-top: 0;
+  margin-bottom: 10%;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #F36A8D;
+}
+
+.anotherTest {
+  left: 42%;
+  background: inherit;
+  color: #9c8af5;
+  border: 2px solid #9c8af5;
+}
+
+.anotherTest:hover {
+  color: white;
+}
+
+.results {
+  padding: 3rem 0 2rem 0;
+  font-weight: 600;
+}
+
+.answer {
+  padding: 10px;
+  background-color: rgba(25, 186, 25, 0.324);
+  margin: 1.5rem 0 2.5rem 1.5rem;
+}
+
+#answers {
+  margin: 1.5rem 0;
+}
+
+#question {
+  line-height: 120%;
+  font-size: 1.3rem;
+}

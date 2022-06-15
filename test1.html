@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тест 1</title>
+  <link rel="icon" href="./images/graduation-hat 1.png" type="image/x-icon">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/quiz-page-styles.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="header">
+      <div class="navbar">
+        <img class="logo" onclick="window.location.href='./index.html'" class="logo"  src="./images/graduation-hat 1.png" alt="">
+        <ul>
+          <label class="logo"></label>
+          <li><a class ="link" href="index.html#id1">Тести</a></li>
+          <li><a class ="link" href="index.html#id2">Додаткові ресурси</a></li>
+          <li><a class ="link" href="https://web.kpi.kharkov.ua/iks/en/" target="_blank">Сайт кафедри</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+   <div class="content" id="quiz">
+    <h1><center>Модуль 1</center></h1>
+    <div id="counter">Питання</div>
+      <div class="quiz-container">
+        <h2 id="question">Question text</h2>
+        <pre id="description">Text</pre>
+        <ul>
+          <li>
+            <input
+              type="radio"
+              id="a"
+              name="answer"
+              class="answer"
+            />
+              <label id="a_text" for="a"></label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="b"
+              name="answer"
+              class="answer"
+            />
+            <label id="b_text" for="b"></label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="c"
+              name="answer"
+              class="answer"
+            />
+            <label id="c_text" for="c"></label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="d"
+              name="answer"
+              class="answer"
+            />
+            <label id="d_text" for="d"></label>
+          </li>  
+        </ul>
+        <button id="submit">Наступне питання</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="quiz-script.js"></script>
+</html>
