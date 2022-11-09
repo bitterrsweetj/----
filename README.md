@@ -22,7 +22,7 @@ The students can do the quiz and see their results.
 
 ### Links
 
-- Live Site URL: [here](https://bitterrsweetj.github.io/Online-quiz/)
+- Live Site URL: [here](https://bitterrsweetj.github.io/online-quiz/)
 
 
 ## Author
